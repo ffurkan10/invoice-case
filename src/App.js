@@ -17,7 +17,7 @@ const App = () => {
               <MainLayout />
             </PrivateRoute>
           }>
-            <Route index path="/invoices" element={<InvoiceListPage />} />
+            <Route index path="/" element={<InvoiceListPage />} />
             <Route path="/invoice/:id" element={<InvoiceDetailPage />} />
           </Route>
         </Routes>

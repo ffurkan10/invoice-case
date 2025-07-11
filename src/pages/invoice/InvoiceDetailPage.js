@@ -70,7 +70,7 @@ const InvoiceDetailPage = () => {
         </Descriptions.Item>
       </Descriptions>
 
-      <Divider orientation="left">Ödeme Durumu</Divider>
+      <Divider orientation="left">{t("paymentInfo")}</Divider>
       <Descriptions labelStyle={{ width: '40%' }} bordered column={1} size="middle">
         <Descriptions.Item label={t("status")}>
           <Tag color="orange">{selectedInvoice.paymentDetails?.paymentStatus}</Tag>

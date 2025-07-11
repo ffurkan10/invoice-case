@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchInvoices, setSelectedInvoice } from '../../features/invoice/invoiceSlice'
-import { Button, Table } from 'antd'
+import { Table } from 'antd'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { getInvoiceTableColumns } from '../../constants/invoiceTableColumns'

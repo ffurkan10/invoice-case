@@ -25,7 +25,7 @@ const HeaderBar = () => {
       boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
     }}>
       <Flex justify='space-between' align='center'>
-        <Flex gap="large" align='center'>
+        <Flex gap="middle" align='center'>
           <Avatar size="medium" icon={<UserOutlined />} />
           <Text strong>{user?.email}</Text>
         </Flex>

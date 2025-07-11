@@ -49,7 +49,7 @@ const authSlice = createSlice({
         state.jwt = action.payload.jwt;
         localStorage.setItem('user', JSON.stringify(action.payload.user));
         localStorage.setItem('jwt', action.payload.jwt);
-        window.location.href = '/invoices';
+        window.location.href = '/';
       })
       .addCase(login.rejected, (state, action) => {
         state.isLoading = false;
